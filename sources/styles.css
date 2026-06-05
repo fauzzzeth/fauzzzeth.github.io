@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    background-image: url("bg.png");
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    color:whitesmoke;
+    background-color:black;
+    text-align: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 5;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.6;
+    padding: 15px;
+
+}
+.content p {
+    font-size:medium;
+    font-weight: 800;
+    color:honeydew
+}
+a {
+    background-color:dimgray;
+    border: none;
+    color: honeydew;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15%;
+}
+.rickroll {
+    background-image: url("https://www.icegif.com/wp-content/uploads/2023/01/icegif-162.gif");
+    background-position: cover;
+    background-size: cover;
+}
+.awesomecopyright {
+    font-size: xx-small;
+    color: blue;
+    text-align: end;
+}
+footer {
+    align-items: center;
+    text-align: center;
+    margin-top: auto;
+    background-color:slategray;
+    opacity: 0.5
+}
+.secretinformation {
+    opacity:0.1;
+}
+.amp {
+    padding: 5px;
+    color: honeydew
+}
+h1 {
+    color:whitesmoke
+}
